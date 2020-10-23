@@ -4,8 +4,8 @@ const functions = require('firebase-functions');
 // https://firebase.google.com/docs/functions/write-firebase-functions
 
 exports.helloWorld = functions.https.onRequest((request, response) => {
-    functions.logger.info("Importing property", {
-        empty: []
-      });
- response.send("Check the !");
+  functions.logger.info('Importing property', {
+    empty: [],
+  });
+  response.send('Check the !');
 });
